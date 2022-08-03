@@ -1,0 +1,21 @@
+.item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.text {
+  margin: 0;
+}
+
+.button {
+  margin-top: 2px;
+  height: 20px;
+}
+
+.list {
+  padding: 0;
+  width: 300px;
+  margin-right: auto;
+  margin-left: auto;
+}

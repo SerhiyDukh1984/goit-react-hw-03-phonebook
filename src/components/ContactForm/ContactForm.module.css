@@ -1,0 +1,21 @@
+.form {
+  padding: 20px;
+  border: 2px solid black;
+}
+
+.label {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.button {
+  width: 100px;
+}
+
+.input {
+  margin-bottom: 20px;
+}
+
+.title {
+  margin-top: 0;
+}
