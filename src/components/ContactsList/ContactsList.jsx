@@ -1,10 +1,10 @@
-import PropTypes from 'prop-types';
-import s from './ContactsList.module.css';
+import PropTypes from "prop-types";
+import s from "./ContactsList.module.css";
 
 export default function ContactsList({ filteredContacts, deleteContact }) {
   return (
     <ul className={s.list}>
-      {filteredContacts.map(contact => (
+      {filteredContacts.map((contact) => (
         <li className={s.item} key={contact.id}>
           {contact.name}: {contact.number}
           <button
